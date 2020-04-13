@@ -31,11 +31,11 @@ GreenPAKボード | SLG46826V-DIP | SLG46826V搭載 20-pin DIP<BR>動作電圧: 
 電池ボックスは両面テープで張り付けました。  
 
 部品を外した時の配線がわかる写真を公開します。  
-<img src="img/connect001.jpg" width="400">
+<img src="img/connect001.jpg" width="640">
 
 ## 設計データ
 
-<img src="img/SDA001.jpg" width="400">  
+<img src="img/SDA001.jpg" width="640">  
 
 「GreenPAK Designerソフトウェア」で  
 src/SocialDistanceAlarm.gp6  
