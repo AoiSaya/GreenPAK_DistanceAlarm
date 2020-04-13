@@ -1,11 +1,11 @@
-# social distance alarm badge by GreenPAK.  
+# Social distance alarm badge by GreenPAK.  (緑豆壱拾壱號)
 
 GreenPAKっていうFPGAみたいなデバイスで2m以内に何かが近づくと音で教えてくれるバッジを作ってみました。  
 ソーシャルディスタンスを確保できるかもしれません。  
 <img src="img/front001.JPG" width="400"><img src="img/upside.JPG" width="400">  
 
 物体までの距離が2m以内に近づくと断続的に音が鳴り始め、近づくほど音が高く、間隔が短くなり、物体の接近を知らせます。  
-動画⇒Twitterのページ（https://twitter.com/La_zlo/status/1248650387885658113）  
+動画⇒Twitterのページ（https://twitter.com/La_zlo/status/1248650387885658113 ）  
 
 ## 部品一覧
 
@@ -33,7 +33,6 @@ GreenPAKボード | SLG46826V-DIP | SLG46826V搭載 20-pin DIP<BR>動作電圧: 
 部品を外した時の配線がわかる写真を公開します。  
 <img src="img/connect001.jpg" width="400">
 
-
 ## 設計データ
 
 <img src="img/SDA001.jpg" width="400">  
@@ -44,6 +43,7 @@ src/SocialDistanceAlarm.gp6
 
 
 ## Arduinoで焼く方法
+
 自分ではまだ試したことがないのですが、公式の資料を紹介します。  
 Arduinoで焼く場合は、こちらのドキュメント及びzipファイルをご参照ください。  
 https://www.dialog-semiconductor.com/sites/default/files/an-cm-255_slg468246_mtp_arduino_programming_example.zip  
@@ -51,11 +51,12 @@ https://www.dialog-semiconductor.com/sites/default/files/an-cm-255_slg468246_mtp
 
 ## GreenPAKについて
 
-GrrenPAKは、CPLDとFPGAの間を埋めるようなプログラマブルデバイスです。  
-汎用ロジックIC数個で組めるような回路の置き換えに向いています。  
+GrrenPAKは、Dialog Semiconductor社が販売しているCPLDとFPGAの間を埋めるようなプログラマブルデバイスです。  
+汎用ロジックIC数個で組めるような回路の置き換えに適しており、簡単な回路がこれ一個で実現できます。  
+ソフトウェアは使わないので、面倒なコーディングは不要です。
 
-回路図入力方式で回路を設計し、I2Cを使って内蔵された不揮発メモリに設計を書き込むことで動作します。  
-中でも、SLG46826VまたはSLG46826Gは設計の書き換えが可能なデバイスです。  
+回路図入力方式で回路を設計し、内蔵された不揮発メモリに設計を書き込むことで動作します。  
+中でも、SLG46826VまたはSLG46826Gは装置に組み込んだまま、I2Cを使って何度でも設計を書き換えることが可能な、とても楽しいデバイスです。  
 いろんな回路を書き込んで試せるので、ホビー用途にはこれ一択だと思います。  
 
 設計に必要な「GreenPAK Designerソフトウェア」はこちらから無料で入手することができます。  
